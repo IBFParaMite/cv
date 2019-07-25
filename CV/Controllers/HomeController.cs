@@ -13,13 +13,6 @@ namespace CV.Controllers
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
         public ActionResult Education()
         {
             return View();
@@ -30,7 +23,7 @@ namespace CV.Controllers
             return View();
         }
 
-        public ActionResult WorkExperience()
+        public ActionResult EmploymentHistory() 
         {
             return View();
         }
